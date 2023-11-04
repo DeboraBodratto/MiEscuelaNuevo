@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Inscripción | EESN°2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+ <!--Iconos-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container1">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <!--<div class="container-fluid">-->
+              <a class="navbar-brand" href="#">
+                <img src="imagenes/logo.png" alt="logo" width="50" height="45">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Institucional</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="trayectorias.html">Trayectorias</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="novedades.html">Novedades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Inscripcion.html">Registrarse</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="docentes.html">Acceso</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="delete.html">Administrador</a>
+                  </li>
+                </ul>
+              </div>
+            <!--</div>-->
+          </nav>
+          <div class="container-register">
+            <div class="form-box-register">
+             
+              <form method="POST" action="./php/register.php" name="">
+                
+                                  
+                <h2>Registro</h2>
+                <div class="input-registro">
+                  <i class="fa-solid fa-user icono-registro"></i>
+                  <input
+                    type="text"
+                    name="nombreCompleto"
+                    placeholder="Nombre y Apellido"
+                    required
+                  />
+                </div>
+                <div class="input-registro">
+                  <i class="fa-solid fa-envelope icono-registro"></i>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="input-registro">
+                  <i class="fa-solid fa-key icono-registro"></i>
+                  <input
+                    type="password"
+                    name="contrasenia"
+                    placeholder="Contraseña"
+                    required
+                  />
+                </div>
+                <div class="input-registro">
+                  <i class="fa-solid fa-map-location icono-registro"></i>
+                  <input
+                    type="text"
+                    name="direccion"
+                    placeholder="Dirección"
+                    required
+                  />
+                </div>
+                
+                <div class="input-registro">
+                  <i class="fa-solid fa-mobile icono-registro"></i>
+                  <input
+                    type="text"
+                    name="telefono"
+                    placeholder="Telefono"
+                    required
+                  />
+                </div>
+                <div class="input-registro">
+                  <label for="tipoRegistro" class="label-registro"
+                    >Seleccione el tipo de registro:</label
+                  >
+                  <select name="registro" required>
+                    <option value="docente">Docente</option>
+                    <option value="alumno">Alumno</option>
+                    <option value="directivo">Equipo Directivo</option>
+                    <option value="secretario">Secretaria/o</option>
+                  </select>
+                </div>
+                <div class="enviar-registro">
+                  <input type="submit" class="boton-registro" value="Registrar" />
+                </div>
+                <div class="grupo">
+                  <span><a href="docentes.html">Iniciar sesión</a></span>
+                </div>
+              </form>
+            </div>
+          </div>          
+    <footer>
+      <div class="footer-box">
+        <div class="foot-column1">
+          
+            <div class="foot-contactos">
+            <label
+              ><i class="fa-solid fa-house-user"></i>Ramallo, Buenos Aires</label
+            >
+          </div>
+  
+          <div class="foot-contactos">
+            <label>
+              <i class="fa-solid fa-mobile-screen-button"></i> 3364017385
+            </label>
+            <b class="whatsappFooter">
+              <a href="https://api.whatsapp.com/send/?phone=3364017385">
+                <i
+                  class="fa-brands fa-whatsapp"
+                  style="color: rgb(19, 114, 19)"
+                ></i> </a
+            ></b>
+          </div>
+          <div class="foot-contactos">
+            <label
+              ><i class="fa-solid fa-envelope"></i
+              >debora@example.com</label
+            >
+          </div>
+        </div>
+      </div>
+      <div class="footer-container1">
+        <div class="copyright">2023 | Todos los derechos reservados</div>
+        <div class="politica">
+          <a href=""> Información compañia </a>|
+          <a href=""> Privacidad y Política </a>|
+          <a href=""> Términos y condiciones </a>
+        </div>
+      </div>
+        
+      </footer>
+</div>
+</html>

@@ -1,0 +1,268 @@
+h1{
+    margin: 40px;
+    background-image: url(fondo.jpg);
+    height: 100px;
+    text-align: center;
+}
+
+/*body{
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vw;
+}*/
+
+.titulo-principal{
+    margin: 15px;
+}
+
+.titulo-inscripcion{
+    margin: 15px;
+}
+.container1{
+    background-color: rgb(230, 219, 219);
+    justify-content: center;
+    
+}
+
+.imagen-principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.container2{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.box-galeria{
+    /*background-color: rgb(241, 232, 232);*/
+   
+}
+
+.titulo-novedades{
+margin: 15px;
+}
+
+.titulo-inscripcion{
+    text-align: center;
+    
+}
+
+.titulo-galeria{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+.contenedor-iframe{
+    text-align: center;
+}
+
+.container-form{
+    justify-content: 50%;
+    margin-top: 20px;
+    border: 40px;
+    padding: 60px;
+}
+
+.clearfix{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.titulo-trayectorias{
+    text-align: center;
+    margin: 15px;
+  
+}
+
+.titulo-naturales{
+    text-align: center;
+}
+
+.titulo-sociales{
+    text-align: center;
+}
+
+.titulo-economia{
+    text-align: center;
+}
+
+.box-equipo{
+    text-align: center;
+}
+.titulo-docentes{
+    text-align: center;
+    margin: 30px;
+}
+
+
+.p-docentes{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+html{
+    *background-color: rgb(230, 219, 219);*
+}
+
+.box-contacto{
+    text-align: center;
+    margin: 15px;
+}
+
+.h2-contacto{
+    font-size: 20px;
+}
+
+.container-footer{
+    text-align: center;
+    /*background-color:#98927b;*/
+    margin: 10px;
+    z-index: auto;
+    /*position: relative;*/
+    
+}
+
+.separador{
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 1px;
+    background-color:brown;
+   
+}
+
+/*formulario de registro*/
+
+.container-register{
+    margin-top: 15PX;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   }
+   .form-box-register{
+    position: relative;
+    width: 400px;
+    height: 750px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid rgba(233, 75, 75, 0.861);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .form-box-register h2{
+    color: #fff;
+    text-align: center;
+    font-size:32px;
+   }
+   
+   .input-registro{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom:2px solid orange;
+   }
+   
+   .input-registro input{
+    width: 100%;
+    height:45px;
+    background: transparent;
+    border:none;
+    outline:none;
+    padding:0 20px 0 5px;
+    color: #871a1a;
+    font-size:16px;
+   }
+   .input-registro select{
+    width: 90%;
+    height:45px;
+    background: transparent;
+    border:none;
+    outline:none;
+    padding:0 20px 0 5px;
+   color:  #A52A2A;
+    font-size:16px;
+   }
+   .input-registro select option {
+    background-color: #f0d1d1;;
+    color: #333;
+   }
+   .icono-registro{
+    position: absolute;
+    color: #656866;
+    top:13px;
+    right:0px;
+   
+   }
+   .input-registro input::placeholder{
+    color:#21157c;
+   }
+   
+   .boton-registro{
+      width:100%;
+      height: 40px;
+      border-radius: 40px;
+      background:#ecbf88;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-size: 1em;
+      font-weight: 600;
+
+    }
+
+/*pie de pagina, footer*/
+
+    .footer-box{
+        display: flex;
+        width: 100%;
+        position: :absolute;
+        bottom: 0;
+        width: 100%;
+        
+    }
+
+    .foot-column1{
+        display: flex;
+        
+    }
+
+    .foot-contactos{
+        margin-top: 20px;
+        display: flex;
+    text-align: center;
+        
+     
+       }
+       .foot-contactos i{
+         width: 30px;
+        height: 30px;
+       }
+     
+     
+       .footer-container1{
+        display: flex;
+        justify-content: space-between;
+
+        width: 100%;
+        background: #98927b;
+        
+        padding: 20px;
+        margin-top: auto;
+       }
+      
+       .politica a{
+        text-decoration: none;
+        color: beige;
+       }
+
+     
